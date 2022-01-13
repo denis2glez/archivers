@@ -1,0 +1,11 @@
+[package]
+name = "archivers"
+authors = ["Denis Deniz González <denis2.glez@gmail.com>"]
+license = "MIT OR Apache-2.0"
+edition = "2021"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libarchive-sys = { git = "https://github.com/denis2glez/libarchive-sys" }
