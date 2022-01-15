@@ -1,6 +1,11 @@
+use libarchive_sys::*;
+
+mod archive;
+pub use archive::*;
+
 #[cfg(test)]
 mod tests {
-    use libarchive_sys::*;
+    use super::*;
 
     #[test]
     fn list_archive_content() {

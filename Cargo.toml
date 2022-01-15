@@ -9,3 +9,4 @@ version = "0.1.0"
 
 [dependencies]
 libarchive-sys = { git = "https://github.com/denis2glez/libarchive-sys" }
+thiserror = "1.0.30"
